@@ -1,0 +1,42 @@
+{
+  "timeZone": "America/Chicago",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "OAuth2",
+        "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+        "version": "40"
+      }
+    ]
+  },
+  "addOns": {
+    "common": {
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      },
+      "logoUrl": "<Logo URL>",
+      "name": "Profile Manager",
+      "openLinkUrlPrefixes": [
+        "<Service Desk URL prefix>"
+      ]
+    },
+    "calendar": {},
+    "drive": {},
+    "gmail": {},
+    "docs": {},
+    "sheets": {},
+    "slides": {}
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/gmail.addons.execute"
+  ],
+  "urlFetchWhitelist": [
+    "<Service Desk URL prefix>",
+    "https://oauth2.googleapis.com/token",
+    "https://www.googleapis.com/admin/directory/v1/users/"
+  ]
+}
