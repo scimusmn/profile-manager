@@ -1,5 +1,5 @@
 // Email address of the user to impersonate.
-const USER_EMAIL = '<Service Account Email Address>';
+const USER_EMAIL = '<Admin Account Email Address>';
 
 /**
  * Reset the authorization state, so that it can be re-tested.

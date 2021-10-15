@@ -12,7 +12,7 @@ A Google Workspace Add-on that enables users to modify how their name is display
 2. Change all environment-specific values (noted with `< >`) as necessary
    - `<Logo URL>`, `<Service Desk URL prefix>` in `appsscript.json` and `Code.js`
    - `<Documentation URL>` in `Code.js`
-   - `<Service Account Email Address>` in `ServiceAccount.js`
+   - `<Admin Account Email Address>` in `ServiceAccount.js`
 4. Copy the Google Cloud service account private key json file into the project as a [new `Script` file](https://developers.google.com/apps-script/guides/projects#creating_a_file)
 5. [Publish the add-on](https://developers.google.com/apps-script/add-ons/how-tos/publish-add-on-overview) to the Marketplace
 6. [Install the Marketplace add-on](https://support.google.com/a/answer/172482) in your domain
